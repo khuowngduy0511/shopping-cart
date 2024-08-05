@@ -1,0 +1,132 @@
+# .NET Core / .NET 5+ / .NET 8
+bin/
+obj/
+/bin
+/obj
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\**
+!Generated\*.cs
+
+# Backup & report files
+*_backup/
+*.bak
+*.log
+*.tlog
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.ilk
+*.log
+*.obj
+*.csproj.FileListAbsolute.txt
+*.csv
+
+# Rider / Resharper
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NPM Packages
+node_modules/
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/build-state.yml
+!.yarn/install-state.gz
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# JetBrains Rider
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/caches/
+.idea/shelf/
+.idea/workspace.xml
+.idea/recentProjects.xml
+.idea/dataSources/
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/markdown-navigator/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator-preview/
+.idea/markdown-navigator-preview.xml
+.idea/kotlinc.xml
+.idea/markdown.xml
+.idea/spring.xml
+.idea/notifications.xml
+.idea/dataSources.xml
+.idea/tomcat.xml
+.idea/troubleshoot.xml
+.idea/runConfigurations.xml
+.idea/workspace.xml
+.idea/spring.xml
+.idea/scopes/
+.idea/libraries/
+.idea/.idea/
+
+# Rider settings directory
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/caches/
+.idea/shelf/
+.idea/workspace.xml
+.idea/recentProjects.xml
+.idea/dataSources/
+.idea/sqlDataSources.xml
+.idea/dataSources.ids
+.idea/markdown-navigator/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator-preview/
+.idea/markdown-navigator-preview.xml
+.idea/kotlinc.xml
+.idea/markdown.xml
+.idea/spring.xml
+.idea/notifications.xml
+.idea/dataSources.xml
+.idea/tomcat.xml
+.idea/troubleshoot.xml
+.idea/runConfigurations.xml
+.idea/workspace.xml
+.idea/spring.xml
+.idea/scopes/
+.idea/libraries/
+.idea/.idea/
