@@ -1,12 +1,28 @@
-
+<%@page import="fu.edu.shopping.model.Cart"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="fu.edu.shopping.model.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
+<%
+User auth = (User) request.getSession().getAttribute("auth");
+if (auth != null) {
+        response.sendRedirect("index.jsp");
+}
+ArrayList<Cart> cart_list = (ArrayList<Cart>) session.getAttribute("cart-list");
+if (cart_list != null) {
+        request.setAttribute("cart_list", cart_list);
+}
+%>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Shopping Cart Login </title>
-        <%@include file="includes/head.jsp" %>
-    </head>
-    <body>
+<head>
+<%@include file="/includes/head.jsp"%>
+<title>E-Commerce Cart</title>
+</head>
+<body>
+	<%@include file="/includes/navbar.jsp"%>
+
 	<div class="container">
 		<div class="card w-50 mx-auto my-5">
 			<div class="card-header text-center">User Login</div>
@@ -28,6 +44,6 @@
 		</div>
 	</div>
 
-        <%@include file="includes/footer.jsp" %>
-    </body>
+	<%@include file="/includes/footer.jsp"%>
+</body>
 </html>
